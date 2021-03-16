@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+         .head{
+            font-weight: normal;
+            font-family: fantasy;
+            font-size: medium;
+        }
+
+        input[type=text]{
+            display: block;
+            margin: 20px 0px 20px 0px;
+            padding: 10px;
+
+        }
+
+        li{
+            margin: 20px;
+           list-style: none;
+
+        }
+
+        ul{
+            display: flex;
+
+        }
+
+        ul a{
+            text-decoration: none;
+        }
+
+        button{
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="item"><a href='/'>Home</a></li>
+            <li class="item"><a href='/about'>About</a></li>
+            <li class="item"><a href='/contact'>Contact</a></li>
+        </ul>
+    </nav>
+    <h1 class="head">CONTACT</h1>
+    <form>
+        <input type="text" name="username" placeholder="enter your name">
+        <input type="text" name="message" placeholder="write your message">
+        <button>Send</button>
+    </form>
+</body>
+</html>
